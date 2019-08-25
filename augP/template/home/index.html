@@ -1,4 +1,5 @@
 <! DOCTYPE HTML>
+{% load staticfiles %}
 <head>
     <title>page al sos </title>
 
@@ -6,6 +7,7 @@
 <body>
     <h1>biggest</h1>
     <h6>smallest</h6>
+    <img src="{% static 'home/IMG_3603.jpg'%}">
     {{ template_var }}
 
 </body>
